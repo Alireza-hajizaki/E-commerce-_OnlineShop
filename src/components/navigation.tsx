@@ -29,7 +29,7 @@ const Header = () => {
               <input
                 type="text"
                 placeholder="جستجو"
-                className="p-6 bg-transparent w-full outline-none border-none placeholder:font-serif placeholder:text-gray-500 placeholder:text-right"
+                className="p-6 bg-transparent w-full outline-none border-none focus:ring-0 placeholder:font-serif placeholder:text-gray-500 placeholder:text-right"
               />
               <CiSearch />
             </div>
