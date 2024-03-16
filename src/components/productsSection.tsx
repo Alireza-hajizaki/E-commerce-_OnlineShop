@@ -3,8 +3,7 @@ import ProductCard from "./productCard"
 
 const ProductSection = ({products}:{products:Products[]}) => {
   return (
-    <div className="flex flex-col space-y-4 md:flex-row md:flex-wrap md:space-y-0
-    md:gap-6 md:justify-center" >
+    <div className="p-4 grid gap-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" >
       {products.map(item => <ProductCard product={item} key={item.id}/>)}
     </div>
   )

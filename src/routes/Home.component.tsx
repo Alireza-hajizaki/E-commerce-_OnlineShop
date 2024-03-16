@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <CarouselElem />
-      <div className="p-6">
+      <div className="m-20">
         <ProductContainer />
         <Counter/>
       </div>
